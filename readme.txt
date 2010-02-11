@@ -32,24 +32,24 @@ This plugin automatically installs the TalkAhead Sponsored Comments area on a Wo
 Any publisher that seeks to engage its readership will benefit from the TalkAhead platform. That includes publishers of news portals, review sites, non profit sites...
 
 = How do Sponsored Comments benefit advertisers? =
-Sponsored Comments enable advertisers to respond to the content of an article without having to resort to “astroturfing” (posing as a consumer writing a response in the readers’ comments section). Prior to Sponsored Comments, there was no channel or mechanism for advertisers to respond to, refute, confirm or elaborate on the content of an article other than sending a letter to the editor (letters that appear in a separate area from the original article). TalkAhead has changed that with the introduction of the Sponsored Comment platform. Another benefit is that Sponsored Comments are true conversation starters. The goal of social marketing is to start conversations with customers, and Sponsored Comments let advertisers do just that.
+Sponsored Comments enable advertisers to respond to the content of an article without having to resort to "astroturfing" (posing as a consumer writing a response in the readers' comments section). Prior to Sponsored Comments, there was no channel or mechanism for advertisers to respond to, refute, confirm or elaborate on the content of an article other than sending a letter to the editor (letters that appear in a separate area from the original article). TalkAhead has changed that with the introduction of the Sponsored Comment platform. Another benefit is that Sponsored Comments are true conversation starters. The goal of social marketing is to start conversations with customers, and Sponsored Comments let advertisers do just that.
 
 = How do the click-through rates of Sponsored Comments compare to other advertising channels? =
-Click-through rates for Sponsored Comments are in the range of 0.5% to 2.5%. Because Sponsored Comments are tightly correlated to the content of an article, they tend to receive very high click-through rates. Who sells Sponsored Comments? Sponsored Comments may be sold via any combination of those sales channels: ? TalkAhead sales team ? TalkAhead partners (PR firms, Ad Agencies who will place Sponsored Comments for their clients) ? TalkAhead self service wizard ? Publisher direct sales
+Click-through rates for Sponsored Comments are in the range of 0.5% to 2.5%. Because Sponsored Comments are tightly correlated to the content of an article, they tend to receive very high click-through rates.
 
 = What is the billing model for Sponsored Comments? =
 The billing model is determined by the publisher. Publishers may choose from CPM. CPC, or CPT (cost per time). They may opt for a flat rate, or let advertisers bid. Moreover, publishers may opt for multiple pricing models throughout their site or sites.
 
 = Who sells Sponsored Comments? =
 Sponsored Comments may be sold via any combination of those sales channels: 
-* TalkAhead sales team 
-* TalkAhead partners (PR firms, Ad Agencies who will place Sponsored Comments for their clients) 
-* TalkAhead self service wizard 
-* Publisher direct sales (optional)
+1 TalkAhead sales team 
+2 TalkAhead partners (PR firms, Ad Agencies who will place Sponsored Comments for their clients) 
+3 TalkAhead self service wizard 
+4 Publisher direct sales (optional)
 
 == Screenshots ==
 
-1. screenshot-1.png shows an example of a typical Sponsored Comment. 
+1. Example of a typical Sponsored Comment. 
 
 == Changelog ==
 
