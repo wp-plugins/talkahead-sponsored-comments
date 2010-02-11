@@ -6,21 +6,20 @@ Requires at least: 2.0.2
 Tested up to: 2.9.1
 Stable tag: trunk
 
-Earn more ad revenue fast! TalkAhead’s new turnkey advertising platform called Sponsored Comments. Free and easy to implement and manage.
+Earn more ad revenue fast! TalkAhead's new turnkey advertising platform called Sponsored Comments. Free and easy to implement and manage.
 
 == Description ==
 
-Put an end to free advertising!
+As a blogger, you know that marketers want to join the conversations your readers are having in the readers comments sections on your websites. Why not give them a legitimate option to engage with your readers; one that also allows you to open a new channel for revenues?
 
-As a publisher, you want to allow your readers to voice their reactions to the articles you run. 
-But you also know that not all comments are written by readers; they’re the handiwork of marketing executives or freelance writers hired to sway your audience. 
-You can recognize biased comments, but your readers may not, and that, in turn, can jeopardize your objectivity.
+Sponsored Comments by TalkAhead
+TalkAhead offers a new advertising channel called Sponsored Comments.
+Sponsored Comments are paid messages that respond to a news article or blog post and are prominently displayed.
+You can choose the exact location where you want the Sponsored Comment area to appear (end of article, above or in the readers'comments section, etc). 
 
-At the same time, those marketing executives may be current or potential advertisers for you. 
-Wouldn’t you like to offer them a better option, one that also allows you to open a new channel for revenue?
-Now with TalkAhead you can.
+Learn more about TalkAhead Sponsored Comments at [www.TalkAhead.com](http://www.talkahead.com)
 
-This plugin facilitates the installation of TalkAhead sponsored comments on a WordPress driven web site.
+This plugin automatically installs the TalkAhead Sponsored Comments area on a WordPress web site.
 
 == Installation ==
 
@@ -29,27 +28,35 @@ This plugin facilitates the installation of TalkAhead sponsored comments on a Wo
 
 == Frequently Asked Questions ==
 
-= How It Works =
-Advertisers create a short response to an article or blog post known as a Sponsored Comment. 
-The Sponsored Comment is the first message readers see the moment they’ve finished reading an article. And because Sponsored Comments are clearly marked your objectivity is intact.
+= What Types of Publishers Benefit from TalkAhead? =
+Any publisher that seeks to engage its readership will benefit from the TalkAhead platform. That includes publishers of news portals, review sites, non profit sites...
 
-= What Types of Publishers Benefit from TalkAhead =
+= How do Sponsored Comments benefit advertisers? =
+Sponsored Comments enable advertisers to respond to the content of an article without having to resort to “astroturfing” (posing as a consumer writing a response in the readers’ comments section). Prior to Sponsored Comments, there was no channel or mechanism for advertisers to respond to, refute, confirm or elaborate on the content of an article other than sending a letter to the editor (letters that appear in a separate area from the original article). TalkAhead has changed that with the introduction of the Sponsored Comment platform. Another benefit is that Sponsored Comments are true conversation starters. The goal of social marketing is to start conversations with customers, and Sponsored Comments let advertisers do just that.
 
-Any publisher that seeks to engage its readership will benefit from the TalkAhead platform. That includes publishers of news portals, online newspapers, association portals and blogs.
+= How do the click-through rates of Sponsored Comments compare to other advertising channels? =
+Click-through rates for Sponsored Comments are in the range of 0.5% to 2.5%. Because Sponsored Comments are tightly correlated to the content of an article, they tend to receive very high click-through rates. Who sells Sponsored Comments? Sponsored Comments may be sold via any combination of those sales channels: ? TalkAhead sales team ? TalkAhead partners (PR firms, Ad Agencies who will place Sponsored Comments for their clients) ? TalkAhead self service wizard ? Publisher direct sales
 
+= What is the billing model for Sponsored Comments? =
+The billing model is determined by the publisher. Publishers may choose from CPM. CPC, or CPT (cost per time). They may opt for a flat rate, or let advertisers bid. Moreover, publishers may opt for multiple pricing models throughout their site or sites.
+
+= Who sells Sponsored Comments? =
+Sponsored Comments may be sold via any combination of those sales channels: 
+* TalkAhead sales team 
+* TalkAhead partners (PR firms, Ad Agencies who will place Sponsored Comments for their clients) 
+* TalkAhead self service wizard 
+* Publisher direct sales (optional)
 
 == Screenshots ==
 
-1. screenshot-1.jpg shows how a typical sponsored comment can look on a web page. 
+1. screenshot-1.png shows an example of a typical Sponsored Comment. 
 
 == Changelog ==
 
 = 1.0.1 =
-* 
 * Support TalkAhead Alerts
 
 = 1.0.0 =
-*
 * First release
 
 == Upgrade Notice ==
