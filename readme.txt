@@ -23,8 +23,10 @@ This plugin automatically installs the TalkAhead Sponsored Comments area on a Wo
 
 == Installation ==
 
-1. Upload `talkahead_plugin.php` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+1. Create a TalkAhead publisher account at [ttp://www.talkahead.com/publisher/signup.html](http://www.talkahead.com/publisher/signup.html)
+2. Follow the Wizard for the initial account set up
+3. Upload talkahead_plugin.php to the /wp-content/plugins/ directory
+4. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
 
@@ -42,10 +44,10 @@ The billing model is determined by the publisher. Publishers may choose from CPM
 
 = Who sells Sponsored Comments? =
 Sponsored Comments may be sold via any combination of those sales channels: 
-1 TalkAhead sales team 
-2 TalkAhead partners (PR firms, Ad Agencies who will place Sponsored Comments for their clients) 
-3 TalkAhead self service wizard 
-4 Publisher direct sales (optional)
+1. TalkAhead sales team 
+2. TalkAhead partners (PR firms, Ad Agencies who will place Sponsored Comments for their clients) 
+3. TalkAhead self service wizard 
+4. Publisher direct sales (optional)
 
 == Screenshots ==
 
