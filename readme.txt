@@ -25,8 +25,15 @@ This plugin automatically installs the TalkAhead Sponsored Comments area on a Wo
 
 1. Create a TalkAhead publisher account at [ttp://www.talkahead.com/publisher/signup.html](http://www.talkahead.com/publisher/signup.html)
 2. Follow the Wizard for the initial account set up
-3. Upload talkahead_plugin.php to the /wp-content/plugins/ directory
-4. Activate the plugin through the 'Plugins' menu in WordPress
+3. To get a version of the plugin that's already tailored to your own TalkAhead account, it's preferable to download the plugin from your TalkAhead admin area at [http://server.talkahead.com/admin/en/publisher.html#p/publisherwidget].
+Select WordPress as your website type and follow the instructions on the page to get a plugin that's tailored to your own account.
+4. If you prefer to download the plugin from this WordPress directory, you can do so as well. In that case you'll need to edit the plugin as follows:
+- Download the plugin and install it using your wp-admin interface.
+- Edit the plugin as follows:
+- Fill in your publisher ID (can be copied from the header of any of your TalkAhead admin pages).
+If you don't change it, the plugin won't work!
+- If you've defined your own channel, you'll need to change it in the plugin is well. Look for 'default channel' and replace it with your own.
+- Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Frequently Asked Questions ==
 
