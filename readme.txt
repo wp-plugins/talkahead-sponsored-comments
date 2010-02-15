@@ -17,7 +17,7 @@ TalkAhead offers a new advertising channel called Sponsored Comments.
 Sponsored Comments are paid messages that respond to a news article or blog post and are prominently displayed at the top of the reader' comment section.   
 You can choose the exact location where you want the Sponsored Comment area to appear (end of article, above or in the readers' comments section, etc).   
 
-**TalkAhead Alerts**
+**TalkAhead Alerts**  
 Our advertisers get an immediate notification whenever a new blog post relevant to their their business appears on any Website in the TalkAhead network.   
 Because most articles receive the majority of their views within the first few hours of publication, TalkAhead Alerts give our advertisers a critical heads-up. story and if it is relevant, be the first to place a Sponsored Comment. 
 Once you install the TalkAhead plugin, your website will automatically be included in the TalkAhead Alerts.  
@@ -35,8 +35,9 @@ Please check the instructions before you download the plugin. We recommend you d
 
 Note:
 If you download the plugin from the WordPress directory or if you change your TalkAhead account number, here are the instructions to update the TalkAhead account number:   
-1. Copy and paste your account number. You can find it on the right side of the header in your TalkAhead admin center.   
-2. Activate the plugin in WordPress.   
+
+1. Copy and paste your account number. You can find it on the right side of the header in your TalkAhead admin center.
+2. Activate the plugin in WordPress.
 
 == Frequently Asked Questions ==
 
@@ -53,11 +54,12 @@ Click-through rates for Sponsored Comments are in the range of 0.5% to 2.5%. Bec
 The billing model is determined by the publisher. Publishers may choose from CPM. CPC, or CPT (cost per time). They may opt for a flat rate, or let advertisers bid. Moreover, publishers may opt for multiple pricing models throughout their site or sites.
 
 = Who sells Sponsored Comments? =
-Sponsored Comments may be sold via any combination of those sales channels:  
-1. TalkAhead sales team   
-2. TalkAhead partners (PR firms, Ad Agencies who will place Sponsored Comments for their clients)   
-3. TalkAhead self service wizard   
-4. Publisher direct sales (optional)  
+Sponsored Comments may be sold via any combination of those sales channels:
+
+1. TalkAhead sales team
+2. TalkAhead partners (PR firms, Ad Agencies who will place Sponsored Comments for their clients)
+3. TalkAhead self service wizard
+4. Publisher direct sales (optional) 
 
 == Screenshots ==
 
