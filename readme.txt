@@ -63,9 +63,9 @@ Sponsored Comments may be sold via any combination of those sales channels:
 
 == Screenshots ==
 
-1. Demo of a Sponsored Comment
-2. Demo of a Sponsored Comment
-3. Demo of a Sponsored Comment
+1. Demo of a Sponsored Comment   
+2. Demo of a Sponsored Comment   
+3. Demo of a Sponsored Comment   
 
 
 == Changelog ==
