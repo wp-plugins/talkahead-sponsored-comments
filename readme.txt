@@ -10,21 +10,20 @@ Earn more ad revenue fast! TalkAhead's new turnkey advertising platform called S
 
 == Description ==
 
-As a blogger, you know that marketers want to join the conversations your readers are having in the readers comments sections on your websites. Why not give them a legitimate option to engage with your readers; one that also allows you to open a new channel for revenues?
+**Sponsored Comments by TalkAhead**
+TalkAhead offers a new advertising channel called Sponsored Comments.  Sponsored Comments are paid messages that respond to a news article or blog post and are prominently displayed at the top of the reader' comment section.  
 
-**Sponsored Comments by TalkAhead**  
-TalkAhead offers a new advertising channel called Sponsored Comments.   
-Sponsored Comments are paid messages that respond to a news article or blog post and are prominently displayed at the top of the reader' comment section.   
-You can choose the exact location where you want the Sponsored Comment area to appear (end of article, above or in the readers' comments section, etc).   
+You can choose the exact location where you want the Sponsored Comment area to appear (end of article, above or in the readers' comments section, etc).  
 
-**TalkAhead Alerts**  
-Our advertisers get an immediate notification whenever a new blog post relevant to their their business appears on any Website in the TalkAhead network.   
-Because most articles receive the majority of their views within the first few hours of publication, TalkAhead Alerts give our advertisers a critical heads-up. story and if it is relevant, be the first to place a Sponsored Comment. 
-Once you install the TalkAhead plugin, your website will automatically be included in the TalkAhead Alerts.  
+**Why Sponsored Comments**
+As a blogger, you know that marketers want to join the conversations your readers are having in your readers’ comments sections. Why not give them a legitimate option to engage with your readers; one that also allows you to open a new channel for revenues? 
 
-Learn more about TalkAhead Sponsored Comments at [www.TalkAhead.com](http://www.talkahead.com)
+**TalkAhead Alerts**
+Advertisers receive an immediate notification whenever a new blog post relevant to their business appears on any blog in the TalkAhead network.  Because most articles receive the majority of their views within the first few hours of publication, TalkAhead Alerts give our advertisers a critical heads-up, and if the story is relevant, be the first to place a Sponsored Comment. Once you install the TalkAhead plug-in, your blog will automatically be included in the TalkAhead Alerts. 
 
-Please check the instructions before you download the plugin. We recommend you download the custom Wordpress plugin from your TalkAhead account and not the generic plugin from the  WordPress directory 
+Learn more about TalkAhead Sponsored Comments at [www.TalkAhead.com](http://www.talkahead.com) 
+
+Please check the instructions before you download the plug-in. We recommend downloading the custom WordPress plugin from your TalkAhead account rather than the generic plug-in from the WordPress directory.
 
 == Installation ==
 
