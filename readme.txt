@@ -36,7 +36,6 @@ If you don't change it, the plugin won't work!
 6. If you've defined your own channel, update it in the plugin setting as well.
 7. Activate the plugin through the 'Plugins' menu in WordPress.
 
-Note:
 To get a version of the plugin that's already tailored to your own TalkAhead account, it's preferable to download the plugin from your TalkAhead admin area at [http://server.talkahead.com/admin/en/publisher.html#p/publisherwidget].
 Follow the steps below:
 1. Create a TalkAhead publisher account at [www.talkahead.com/publisher/signup.html](http://www.talkahead.com/publisher/signup.html)
