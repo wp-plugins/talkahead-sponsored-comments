@@ -38,6 +38,7 @@ If you don't change it, the plugin won't work!
 
 To get a version of the plugin that's already tailored to your own TalkAhead account, it's preferable to download the plugin from your TalkAhead admin area at [http://server.talkahead.com/admin/en/publisher.html#p/publisherwidget].
 Follow the steps below:
+
 1. Create a TalkAhead publisher account at [www.talkahead.com/publisher/signup.html](http://www.talkahead.com/publisher/signup.html)
 2. The first time you login in your TalkAhead account, follow the Wizard for the initial account set up
 3. On Step #2 of the set up (Get Code), in the drop down "Select your type of Website", choose WordPress
@@ -86,4 +87,3 @@ A new Setting page. Publisher ID and channel can be set through the Setting page
 
 = 1.0.4 =
 The latest stable version with a new Setting page.
-
