@@ -2,7 +2,7 @@
 Contributors: Eyal Halahmi
 Donate link: www.talkahead.com
 Tags: sponsored, comments, talkbacks, ads, advertising
-Requires at least: 2.0.2
+Requires at least: 2.7.0
 Tested up to: 2.9.1
 Stable tag: trunk
 
@@ -27,16 +27,22 @@ Please check the instructions before you download the plug-in. We recommend down
 
 == Installation ==
 
-1. Create a TalkAhead publisher account at [www.talkahead.com/publisher/signup.html](http://www.talkahead.com/publisher/signup.html)
-2. The first time you login in your TalkAhead account, follow the Wizard for the initial account set up
-3. On Step #2 of the set up (Get Code), in the dropp down "Select your type of Website", choose WordPress
-3. Follow the instructions on that page. You will see a link to download a WordPress plugin that is customized with your TalkAHead account number.
+1. Create a TalkAhead publisher account at [ttp://www.talkahead.com/publisher/signup.html](http://www.talkahead.com/publisher/signup.html)
+2. Follow the Wizard for the initial account set up
+3. Download the plugin and install it using your wp-admin interface.
+4. Go to the Setting page (Under the Setting menu on the left, look for TalkAhead Plugin.
+5. Fill in your publisher ID (can be copied from the header of any of your TalkAhead admin pages).
+If you don't change it, the plugin won't work!
+6. If you've defined your own channel, update it in the plugin setting as well.
+7. Activate the plugin through the 'Plugins' menu in WordPress.
 
 Note:
-If you download the plugin from the WordPress directory or if you change your TalkAhead account number, here are the instructions to update the TalkAhead account number:   
-
-1. Copy and paste your account number. You can find it on the right side of the header in your TalkAhead admin center.
-2. Activate the plugin in WordPress.
+To get a version of the plugin that's already tailored to your own TalkAhead account, it's preferable to download the plugin from your TalkAhead admin area at [http://server.talkahead.com/admin/en/publisher.html#p/publisherwidget].
+Follow the steps below:
+1. Create a TalkAhead publisher account at [www.talkahead.com/publisher/signup.html](http://www.talkahead.com/publisher/signup.html)
+2. The first time you login in your TalkAhead account, follow the Wizard for the initial account set up
+3. On Step #2 of the set up (Get Code), in the drop down "Select your type of Website", choose WordPress
+4. Follow the instructions on that page. You will see a link to download a WordPress plugin that is customized with your TalkAHead account number and preferred channel.
 
 == Frequently Asked Questions ==
 
@@ -68,6 +74,8 @@ Sponsored Comments may be sold via any combination of those sales channels:
 
 
 == Changelog ==
+= 1.0.4 =
+A new Setting page. Publisher ID and channel can be set through the Setting page.
 
 = 1.0.1 =
 * Support TalkAhead Alerts
@@ -77,6 +85,6 @@ Sponsored Comments may be sold via any combination of those sales channels:
 
 == Upgrade Notice ==
 
-= 1.0.1 =
-The latest stable version
+= 1.0.4 =
+The latest stable version with a new Setting page.
 

@@ -3,7 +3,7 @@
 Plugin Name: TalkAhead Sponsored Comments
 Plugin URI: http://www.talkahead.com
 Description: Add Sponsored comments to your blog
-Version: 1.0.3
+Version: 1.0.4
 Author: TalkAhead
 Author URI: http://www.talkahead.com
 */
@@ -14,7 +14,7 @@ if( basename( dirname( __FILE__) ) == 'mu-plugins' )
 
 
 
-$talkahead_plugin_version = "1.0.3";
+$talkahead_plugin_version = "1.0.4";
 
 
 
@@ -39,7 +39,7 @@ function getVersion(){
 function talkahead_display ($content)
 {
 	global $post_ID, $talkahead_plugin_version, $html ;
-
+	if(!is_feed() && !is_page("about") && is_single())
 	{
 		$content .= '<!--  start TalkAhead code -->
 		<script type=\'text/javascript\'>
@@ -52,8 +52,8 @@ function talkahead_display ($content)
 		document.write("<div id=\'TH_div_"+TH_position+"\'></div>");
 		  TH_articles[TH_position] = {
 			  article: "' . get_permalink( $post_ID ) . '",
-			  publisher: "{Fill In your publisher ID here}",
-			  category: "default channel",
+			  publisher: "'. get_option('publisher_account') .'",
+			  category: "'. get_option('channel') .'",
 			  url: document.location,
 
 			  load: function() {
@@ -74,8 +74,64 @@ function talkahead_display ($content)
 	return $content;
 }
 
-
-
 add_filter('the_content'	, 'talkahead_display');
+
+
+function talkahead_plugin_menu() {
+  add_options_page('TalkAhead Options', 'TalkAhead Plugin', 'administrator',  'talkahead-identifier', 'talkahead_plugin_options');
+}
+
+function talkahead_plugin_options() {
+?>
+<div class="wrap">
+<h2>TalkAhead Sponsored Comments</h2>
+
+<form method="post" action="options.php">
+    <?php settings_fields( 'talkahead-option-group' ); ?>
+    <table class="form-table">
+        <tr valign="top">
+        <th scope="row">Publisher Account</th>
+        <td><input type="text" name="publisher_account" value="<?php echo get_option('publisher_account'); ?>" /></td><td> copy your account ID from the TalkAhead admin site</td>
+        </tr>
+        <tr valign="top">
+        <th scope="row">Channel</th>
+        <td><input type="text" name="channel" value="<?php echo get_option('channel'); ?>" /></td><td> Enter a channel from the list you have on the TalkAhead admin site</td>
+        </tr>
+
+    </table>
+
+    <p class="submit">
+    <input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" />
+    </p>
+
+</form>
+</div>
+<?php
+}
+function talkahead_register_settings() { // whitelist options
+  register_setting( 'talkahead-option-group', 'publisher_account' );
+  register_setting( 'talkahead-option-group', 'channel' );
+//  if (get_option('publisher_account') == null){
+//    update_option('publisher_account','{PUBLISHER}');
+//  }
+  if (get_option('channel') == null){
+    update_option('channel','default channel');
+  }
+}
+function talkahead_addaction($links, $file) {
+  $this_plugin = plugin_basename ( __FILE__ );
+  if ($file == $this_plugin) {
+     $links [] = "<a href='options-general.php?page=talkahead-identifier'>Settings</a>";
+  }
+  return $links;
+}
+
+if ( is_admin() ){ // admin actions
+  add_action('admin_menu', 'talkahead_plugin_menu');
+  add_action( 'admin_init', 'talkahead_register_settings' );
+  add_filter ( 'plugin_action_links', 'talkahead_addaction' , -10, 2 ); // add a settings page link to the plugin
+} else {
+  // non-admin
+}
 
 ?>
