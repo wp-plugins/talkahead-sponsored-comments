@@ -18,18 +18,6 @@ $talkahead_plugin_version = "1.0.4";
 
 
 
-function talkahead_globals_init(){
-	if ( ! defined( 'WP_CONTENT_URL' ) )
-		define( 'WP_CONTENT_URL', get_option( 'siteurl' ) . '/wp-content' );
-	if ( ! defined( 'WP_CONTENT_DIR' ) )
-		define( 'WP_CONTENT_DIR', ABSPATH . 'wp-content' );
-	if ( ! defined( 'WP_PLUGIN_URL' ) )
-		define( 'WP_PLUGIN_URL', WP_CONTENT_URL. '/plugins' );
-	if ( ! defined( 'WP_PLUGIN_DIR' ) )
-		define( 'WP_PLUGIN_DIR', WP_CONTENT_DIR. '/plugins' );
-}
-
-
 function getVersion(){
 	 global $talkahead_plugin_version;
 	 return $talkahead_plugin_version;
@@ -38,7 +26,7 @@ function getVersion(){
 // display the plugin
 function talkahead_display ($content)
 {
-	global $post_ID, $talkahead_plugin_version, $html ;
+	global $post, $post_ID, $talkahead_plugin_version, $html ;
 	if(!is_feed() && !is_page("about") && is_single())
 	{
 		$content .= '<!--  start TalkAhead code -->
@@ -51,7 +39,7 @@ function talkahead_display ($content)
 		}
 		document.write("<div id=\'TH_div_"+TH_position+"\'></div>");
 		  TH_articles[TH_position] = {
-			  article: "' . get_permalink( $post_ID ) . '",
+			  article: "' . $post->ID . '",
 			  publisher: "'. get_option('publisher_account') .'",
 			  category: "'. get_option('channel') .'",
 			  url: document.location,
