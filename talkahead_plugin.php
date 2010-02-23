@@ -78,12 +78,14 @@ function talkahead_plugin_options() {
     <?php settings_fields( 'talkahead-option-group' ); ?>
     <table class="form-table">
         <tr valign="top">
-        <th scope="row">Publisher Account</th>
-        <td><input type="text" name="publisher_account" value="<?php echo get_option('publisher_account'); ?>" /></td><td> copy your account ID from the TalkAhead admin site</td>
+        <th scope="row">Publisher Account ID</th>
+        <td><input type="text" name="publisher_account" value="<?php echo get_option('publisher_account'); ?>" /></td>
+        <td> Enter your TalkAhead publisher Account ID. You can find it in the header (top right) of the TalkAhead admin center.</td>
         </tr>
         <tr valign="top">
         <th scope="row">Channel</th>
-        <td><input type="text" name="channel" value="<?php echo get_option('channel'); ?>" /></td><td> Enter a channel from the list you have on the TalkAhead admin site</td>
+        <td><input type="text" name="channel" value="<?php echo get_option('channel'); ?>" /></td>
+        <td> Do not modify unless you created a new channel in  the TalkAhead admin center. </td>
         </tr>
 
     </table>
@@ -92,6 +94,7 @@ function talkahead_plugin_options() {
     <input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" />
     </p>
 
+If you need help with the TalkAhead plugin for WordPress, please <strong><a href="http://www.talkahead.com/support/" target="_blank">click here</a></strong> to visit our support center.
 </form>
 </div>
 <?php

@@ -27,22 +27,23 @@ Please check the instructions before you download the plug-in. We recommend down
 
 == Installation ==
 
-1. Create a TalkAhead publisher account at [ttp://www.talkahead.com/publisher/signup.html](http://www.talkahead.com/publisher/signup.html)
-2. Follow the Wizard for the initial account set up
-3. Download the plugin and install it using your wp-admin interface.
-4. Go to the Setting page (Under the Setting menu on the left, look for TalkAhead Plugin.
-5. Fill in your publisher ID (can be copied from the header of any of your TalkAhead admin pages).
-If you don't change it, the plugin won't work!
-6. If you've defined your own channel, update it in the plugin setting as well.
-7. Activate the plugin through the 'Plugins' menu in WordPress.
-
-To get a version of the plugin that's already tailored to your own TalkAhead account, it's preferable to download the plugin from your TalkAhead admin area at [http://server.talkahead.com/admin/en/publisher.html#p/publisherwidget].
-Follow the steps below:
-
+If you do not have a TalkAhead Publisher account, start here:
 1. Create a TalkAhead publisher account at [www.talkahead.com/publisher/signup.html](http://www.talkahead.com/publisher/signup.html)
 2. The first time you login in your TalkAhead account, follow the Wizard for the initial account set up
 3. On Step #2 of the set up (Get Code), in the drop down "Select your type of Website", choose WordPress
-4. Follow the instructions on that page. You will see a link to download a WordPress plugin that is customized with your TalkAHead account number and preferred channel.
+4. Follow the instructions on that page. You will see a link to download the TalkAhead WordPress Plugin.  
+5. Download and install the Plugin
+6. Activate the Plugin
+Note: when you install the Plugin from the TalkAhead Admin center, it will already include your TalkAhead Account ID. If you download the plugin from the WordPress plugin directory, you will need to enter the TalkAhead Account ID (see instructions below)
+
+
+If you already have TalkAhead Publisher account, start here:
+1. Download the plugin from the WordPress directory and install it.
+2. In Wordpress, on the “Manage Plugins” look for the TalkAhead Plugin and click on "Settings"
+3. Enter your TalkAhead publisher Account ID. You can find it in the header (top right) of the TalkAhead admin center.
+4. Activate the Plugin
+Note: You can also update the channel name if you created a new channel in the TalkAhead admin center.
+
 
 == Frequently Asked Questions ==
 
