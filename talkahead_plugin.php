@@ -94,7 +94,8 @@ function talkahead_plugin_options() {
     <input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" />
     </p>
 
-If you need help with the TalkAhead plugin for WordPress, please <strong><a href="http://www.talkahead.com/support/" target="_blank">click here</a></strong> to visit our support center.
+    If you do not yet have a TalkAhead publisher account, please <strong><a href="http://www.talkahead.com/publisher/signup.html" target="_blank">click here</a></strong> to create an account.<br />
+    If you need help with the TalkAhead plugin for WordPress, please <strong><a href="http://www.talkahead.com/support/" target="_blank">click here</a></strong> to visit our support center.
 </form>
 </div>
 <?php
