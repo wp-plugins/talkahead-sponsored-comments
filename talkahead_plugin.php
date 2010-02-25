@@ -95,6 +95,7 @@ function talkahead_plugin_options() {
     </p>
 
     If you do not yet have a TalkAhead publisher account, please <strong><a href="http://www.talkahead.com/publisher/signup.html" target="_blank">click here</a></strong> to create an account.<br />
+    <br />
     If you need help with the TalkAhead plugin for WordPress, please <strong><a href="http://www.talkahead.com/support/" target="_blank">click here</a></strong> to visit our support center.
 </form>
 </div>
