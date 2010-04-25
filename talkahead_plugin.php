@@ -3,7 +3,7 @@
 Plugin Name: TalkAhead Sponsored Comments
 Plugin URI: http://www.talkahead.com
 Description: Add Sponsored comments to your blog
-Version: 1.0.4
+Version: 1.0.5
 Author: TalkAhead
 Author URI: http://www.talkahead.com
 */

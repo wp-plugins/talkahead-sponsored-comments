@@ -88,5 +88,5 @@ A new Setting page. Publisher ID and channel can be set through the Setting page
 
 == Upgrade Notice ==
 
-= 1.0.4 =
+= 1.0.5 =
 The latest stable version with a new Setting page.
