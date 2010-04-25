@@ -14,7 +14,7 @@ if( basename( dirname( __FILE__) ) == 'mu-plugins' )
 
 
 
-$talkahead_plugin_version = "1.0.4";
+$talkahead_plugin_version = "1.0.5";
 
 
 
@@ -29,7 +29,7 @@ function talkahead_display ($content)
 	global $post, $post_ID, $talkahead_plugin_version, $html ;
 	if(!is_feed() && !is_page("about") && is_single())
 	{
-		$content .= '<!--  start TalkAhead code -->
+		$content .= '<!--  start TalkAhead code. TalkAhead plugin for WordPress version'.$talkahead_plugin_version.' -->
 		<script type=\'text/javascript\'>
 		if (typeof TH_position == \'undefined\'){
 			TH_position=0;

@@ -75,6 +75,8 @@ Sponsored Comments may be sold via any combination of those sales channels:
 
 
 == Changelog ==
+= 1.0.5 =
+Stamp version number on the page source
 = 1.0.4 =
 A new Setting page. Publisher ID and channel can be set through the Setting page.
 
