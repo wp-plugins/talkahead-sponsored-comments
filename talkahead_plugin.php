@@ -3,7 +3,7 @@
 Plugin Name: TalkAhead Sponsored Comments
 Plugin URI: http://www.talkahead.com
 Description: Add Sponsored comments to your blog
-Version: 1.0.5
+Version: 1.0.6
 Author: TalkAhead
 Author URI: http://www.talkahead.com
 */
@@ -14,7 +14,7 @@ if( basename( dirname( __FILE__) ) == 'mu-plugins' )
 
 
 
-$talkahead_plugin_version = "1.0.5";
+$talkahead_plugin_version = "1.0.6";
 
 
 
@@ -53,7 +53,7 @@ function talkahead_display ($content)
 			  }
 			};
 			if (TH_position==0){
-			  TH_articles[TH_position].load();
+      			setTimeout(function() {TH_articles[TH_position].load(); }, 1);
 			}
 		</script>
 		<!--  end TalkAhead code -->

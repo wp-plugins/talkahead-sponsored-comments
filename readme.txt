@@ -75,6 +75,9 @@ Sponsored Comments may be sold via any combination of those sales channels:
 
 
 == Changelog ==
+= 1.0.6 =
+Some fixes for Chrome compatibility
+
 = 1.0.5 =
 Stamp version number on the page source
 = 1.0.4 =
@@ -87,6 +90,7 @@ A new Setting page. Publisher ID and channel can be set through the Setting page
 * First release
 
 == Upgrade Notice ==
-
+= 1.0.6 =
+Upgrade to 1.0.6 to improve Chrome support for high availability.
 = 1.0.5 =
 The latest stable version with a new Setting page.
